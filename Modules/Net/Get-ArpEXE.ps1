@@ -1,6 +1,7 @@
 ﻿<#
 .SYNOPSIS
-Get-ARP.ps1 acquires arp table
+Get-ARP.ps1 acquires arp table.  This script has been modified from original form to force use of 
+arp command for consistent output from varied Windows OS levels.
 .NOTES
 Next line tells Kansa.ps1 how to format this script's output.
 OUTPUT tsv
