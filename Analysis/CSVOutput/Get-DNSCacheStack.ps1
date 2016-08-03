@@ -6,6 +6,8 @@ Pulls frequency of DNSCache entries
 
 This script expects files matching the *DNSCache.csv pattern to be in the
 current working directory.
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR DNSCache
 #>

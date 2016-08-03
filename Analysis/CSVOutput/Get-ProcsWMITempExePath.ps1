@@ -7,8 +7,10 @@ PSComputerName for any processes with ExecutablePaths containing Temp, Tmp or
 AppData\Local, common temporary folders
 
 Requires:
-Process data matching *ProcWMI.tsv in pwd
+Process data matching *ProcWMI.csv in pwd
 logparser.exe in path
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR ProcsWMI
 #>

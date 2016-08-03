@@ -6,6 +6,8 @@ Pulls frequency of ARP based on IpAddr
 
 This script expects files matching the *Arp.csv pattern to be in the
 current working directory.
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR Arp
 #>

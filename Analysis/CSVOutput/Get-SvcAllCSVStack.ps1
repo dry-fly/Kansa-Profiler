@@ -6,6 +6,8 @@ Pulls frequency of local admin account entries
 
 This script expects files matching the *SCVAll.csv pattern to be in the
 current working directory.
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR SvcAll
 #>

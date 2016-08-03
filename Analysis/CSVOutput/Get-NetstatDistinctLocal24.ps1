@@ -8,6 +8,8 @@ what hosts are communicating to hosts outside your environment.
 This script exepcts files matching the pattern 
 *netstat.csv to be in the current working
 directory
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR Netstat
 #>

@@ -7,8 +7,10 @@ ExecutablePath and command line arguments and hash
 of file on disk
 
 Requires:
-Process data matching *ProcWMI.tsv in pwd
+Process data matching *ProcWMI.csv in pwd
 logparser.exe in path
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR ProcsWMI
 #>

@@ -8,6 +8,8 @@ on collected Get-PrefetchListing data.
 This script exepcts files matching the pattern 
 *PrefetchListing.csv (CORRECTION, was '.tsv') to be in the current working
 directory
+
+Simsay, Jason: Modified for LogParser output to CSV.
 .NOTES
 DATADIR PrefetchListing
 #>
