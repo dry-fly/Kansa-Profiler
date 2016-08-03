@@ -4,6 +4,8 @@ function Get-Analysis {
 Runs analysis scripts as specified in .\Analyais\Analysis.conf
 Saves output to AnalysisReports folder under the output path
 Fails silently, but logs errors to Error.log file
+
+Simsay, Jason:  Extracted function from Kansa.ps1 to dot source for use in createProfileDirectory.ps1 profile analysis script.
 #>
 Param(
     [Parameter(Mandatory=$True,Position=0)]
@@ -34,7 +36,7 @@ Param(
                     Set-Location "$OutputPath\$DataDir"
                     Write-Verbose "Running analysis script: ${AnalysisScript}"
                     $AnalysisFile = ((((($AnalysisScript -split "\\")[1]) -split "Get-")[1]) -split ".ps1")[0]
-                    # GCIH - Converted analysis outputs to CSV
+                    # Simsay, Jason - Changed analysis outputs to CSV
                     & "$StartingPath\Analysis\${AnalysisScript}" | Set-Content -Encoding $Encoding ($AnalysisOutPath + $AnalysisFile + ".csv")
 					Pop-Location
 
@@ -73,6 +75,8 @@ the given module's data so that if it is called with the -Analysis
 flag, the analysis scripts can find the data.
 TK Some collector output paths are dynamically generated based on
 arguments, so this breaks for analysis. Solve.
+
+Simsay, Jason:  Extracted function from Kansa.ps1 to dot source for use in createProfileDirectory.ps1 profile analysis script.
 #>
 Param(
     [Parameter(Mandatory=$True,Position=0)]
